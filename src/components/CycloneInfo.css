@@ -1,0 +1,99 @@
+.cyclone-info {
+  grid-area: info;
+  background: var(--bg-panel);
+  border-left: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.cyclone-info-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 14px 0;
+}
+
+.cyclone-info-icon {
+  color: var(--accent-orange);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.cyclone-info-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.cyclone-info-type {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--accent-orange);
+  margin-top: 2px;
+}
+
+.cyclone-info-details {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.cyclone-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.cyclone-info-row-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.cyclone-info-row-label svg {
+  width: 13px;
+  height: 13px;
+  opacity: 0.6;
+  flex-shrink: 0;
+}
+
+.cyclone-info-row-value {
+  color: var(--text-primary);
+  font-weight: 500;
+  text-align: right;
+}
+
+.cyclone-info-row-value--green {
+  color: var(--accent-green);
+  font-weight: 700;
+}
+
+.cyclone-info-view-btn {
+  margin: 14px;
+  padding: 10px;
+  background: rgba(0, 229, 255, 0.08);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  border-radius: 6px;
+  color: var(--accent-cyan);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.15s;
+  margin-top: auto;
+}
+
+.cyclone-info-view-btn:hover {
+  background: rgba(0, 229, 255, 0.15);
+}

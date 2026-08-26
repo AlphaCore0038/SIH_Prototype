@@ -1,0 +1,57 @@
+.layer-bar {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  gap: 2px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.layer-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.layer-btn:hover {
+  background: var(--bg-card);
+  color: var(--text-primary);
+}
+
+.layer-btn--active {
+  background: rgba(0, 229, 255, 0.12);
+  color: var(--accent-cyan);
+}
+
+.layer-btn--active:hover {
+  background: rgba(0, 229, 255, 0.18);
+  color: var(--accent-cyan);
+}
+
+.layer-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.layer-btn-icon {
+  display: flex;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+}

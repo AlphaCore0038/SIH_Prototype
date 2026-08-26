@@ -1,0 +1,73 @@
+.current-conditions {
+  background: var(--bg-panel);
+  border-top: 1px solid var(--border);
+}
+
+.current-conditions-cards {
+  display: flex;
+  gap: 1px;
+  background: var(--border);
+  border-top: 1px solid var(--border);
+}
+
+.condition-card {
+  flex: 1;
+  background: var(--bg-panel);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.condition-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.condition-card-header svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0.7;
+}
+
+.condition-card-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.15;
+}
+
+.condition-card-unit {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-left: 4px;
+}
+
+.condition-card-sub {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.condition-card-sub--strong {
+  color: var(--accent-orange);
+}
+
+.condition-card-sub--low {
+  color: var(--accent-green);
+}
+
+.condition-card-sub--heavy {
+  color: var(--accent-blue);
+}
+
+.condition-card-sub--high {
+  color: var(--accent-red);
+}

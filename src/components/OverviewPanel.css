@@ -1,0 +1,78 @@
+.overview-panel {
+  grid-area: overview;
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+}
+
+.overview-count-label {
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 4px 14px 0;
+  letter-spacing: 0.5px;
+}
+
+.overview-count-value {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text-primary);
+  padding: 0 14px;
+  line-height: 1.1;
+}
+
+.overview-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 12px 14px;
+}
+
+.overview-status-label {
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 0 14px;
+  letter-spacing: 0.5px;
+}
+
+.overview-status-value {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent-red);
+  padding: 2px 14px 0;
+  letter-spacing: 1px;
+}
+
+.overview-status-sub {
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 2px 14px 0;
+}
+
+.overview-confidence-label {
+  color: var(--text-secondary);
+  font-size: 12px;
+  padding: 16px 14px 0;
+  letter-spacing: 0.5px;
+}
+
+.overview-confidence-value {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--accent-green);
+  padding: 0 14px;
+}
+
+.overview-confidence-bar-track {
+  margin: 8px 14px 0;
+  height: 4px;
+  background: var(--bg-card);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.overview-confidence-bar-fill {
+  height: 100%;
+  width: 94.2%;
+  background: var(--accent-green);
+  border-radius: 2px;
+}

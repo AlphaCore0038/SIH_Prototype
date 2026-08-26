@@ -1,0 +1,60 @@
+.map-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #0a0e1a;
+}
+
+.map-container .leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0a0e1a;
+}
+
+.map-controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.map-control-btn {
+  width: 32px;
+  height: 32px;
+  background: rgba(13, 19, 33, 0.9);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+  transition: background 0.15s, color 0.15s;
+}
+
+.map-control-btn:hover {
+  background: rgba(26, 35, 56, 0.95);
+  color: var(--text-primary);
+}
+
+.map-control-divider {
+  width: 32px;
+  height: 0;
+  border-top: 1px solid var(--border);
+}
+
+.leaflet-control-attribution {
+  background: rgba(10, 14, 26, 0.8) !important;
+  color: #64748b !important;
+  font-size: 10px !important;
+  border: none !important;
+  padding: 2px 6px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #94a3b8 !important;
+}
