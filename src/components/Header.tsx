@@ -27,7 +27,7 @@ export default function Header({ data }: HeaderProps) {
       <div className="header-right">
         <div className="header-live">
           <span className="header-live-dot" />
-          LIVE
+          ACTIVE
         </div>
         <span className="header-datetime">
           {formatHeaderDate(data.current.timestamp)}<span className="header-datetime-sep">|</span>{formatHeaderTime(data.current.timestamp)}

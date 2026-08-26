@@ -2,10 +2,17 @@ import './ForecastPanel.css';
 import type { CycloneData } from '../types/cyclone';
 import { formatTime } from '../utils/format';
 
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
 interface ForecastPanelProps {
   data: CycloneData;
   selectedForecast: number | null;
   onSelectForecast: (hoursAhead: number | null) => void;
+}
+
+function formatMonthDay(iso: string): string {
+  const d = new Date(iso);
+  return `${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]}`;
 }
 
 export default function ForecastPanel({ data, selectedForecast, onSelectForecast }: ForecastPanelProps) {
@@ -14,6 +21,7 @@ export default function ForecastPanel({ data, selectedForecast, onSelectForecast
       <div className="section-heading">
         Forecast <span style={{ fontWeight: 400, letterSpacing: 0, textTransform: 'none', fontSize: 11 }}>(Cyclone Center Position)</span>
       </div>
+      <div className="forecast-panel-subtitle">Prototype ML trajectory forecast — not operational</div>
       <div className="forecast-grid">
         {data.forecast.map((point) => {
           const isSelected = selectedForecast === point.hoursAhead;
@@ -35,7 +43,7 @@ export default function ForecastPanel({ data, selectedForecast, onSelectForecast
               <div className="forecast-col-time">
                 {formatTime(point.timestamp)}
                 {point.hoursAhead >= 24 && (
-                  <span className="forecast-col-time-note"> ({point.timestamp.substring(8, 10)} Aug)</span>
+                  <span className="forecast-col-time-note"> ({formatMonthDay(point.timestamp)})</span>
                 )}
               </div>
               <div className="forecast-col-lat">{point.lat.toFixed(1)}°N</div>

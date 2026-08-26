@@ -1,0 +1,45 @@
+{
+  "feature_cols": [
+    "lat",
+    "lon",
+    "wind",
+    "pressure",
+    "dlat",
+    "dlon",
+    "speed_kmh",
+    "direction_deg",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "horizons": [
+    1,
+    2,
+    4,
+    8,
+    12
+  ],
+  "horizon_labels": [
+    "+6h",
+    "+12h",
+    "+24h",
+    "+48h",
+    "+72h"
+  ],
+  "seq_length": 4,
+  "n_features": 10,
+  "n_output": 10,
+  "splits": {
+    "train": {
+      "n_storms": 830,
+      "n_sequences": 13963
+    },
+    "val": {
+      "n_storms": 177,
+      "n_sequences": 2890
+    },
+    "test": {
+      "n_storms": 179,
+      "n_sequences": 3186
+    }
+  }
+}

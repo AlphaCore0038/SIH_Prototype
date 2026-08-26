@@ -104,7 +104,7 @@ export default function DetailsPanel({ data, onClose }: DetailsPanelProps) {
   const intensityTrend = computeIntensityTrend(track);
   const trackDirection = computeTrackDirection(track);
   const displacement = computeForecastDisplacement(current, forecast);
-  const forecastMaxWind = Math.max(...forecast.map((p) => p.wind ?? 0));
+  const forecastMaxWind = Math.max(...forecast.map((p) => p.wind ?? -Infinity));
   const windFirst = track[0].wind ?? 0;
   const windLast = track[track.length - 1].wind ?? 0;
 
@@ -174,12 +174,12 @@ export default function DetailsPanel({ data, onClose }: DetailsPanelProps) {
                   <span className="details-forecast-hours">+{point.hoursAhead}h</span>
                   <span className="details-forecast-time">{formatTime(point.timestamp)}</span>
                   <span className="details-forecast-coord">{point.lat.toFixed(1)}°N, {point.lon.toFixed(1)}°E</span>
-                  {point.wind != null && <span className="details-forecast-wind">{point.wind} km/h</span>}
+                  <span className="details-forecast-wind">{point.wind != null ? `${point.wind} km/h` : 'N/A'}</span>
                 </div>
               ))}
             </div>
             <div className="details-grid" style={{ marginTop: '8px' }}>
-              <div className="details-kv"><span className="details-kv-label">Max Forecast Wind</span><span className="details-kv-value details-kv-value--accent">{forecastMaxWind} km/h</span></div>
+              <div className="details-kv"><span className="details-kv-label">Max Forecast Wind</span><span className="details-kv-value details-kv-value--accent">{Number.isFinite(forecastMaxWind) ? `${forecastMaxWind} km/h` : 'N/A'}</span></div>
               <div className="details-kv"><span className="details-kv-label">Lat Displacement</span><span className="details-kv-value">+{displacement.maxLat.toFixed(1)}°</span></div>
               <div className="details-kv"><span className="details-kv-label">Lon Displacement</span><span className="details-kv-value">+{displacement.maxLon.toFixed(1)}°</span></div>
             </div>

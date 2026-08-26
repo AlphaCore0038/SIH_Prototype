@@ -5,12 +5,14 @@ const layers = [
   { id: 'track', label: 'Track', active: false, disabled: false },
   { id: 'rain', label: 'Rain', active: false, disabled: true },
   { id: 'wind', label: 'Wind', active: false, disabled: true },
-  { id: 'risk', label: 'Risk', active: false, disabled: true },
+  { id: 'risk', label: 'Risk', active: false, disabled: false },
 ];
 
 interface LayerBarProps {
   showTrack: boolean;
+  showRisk: boolean;
   onToggleTrack: () => void;
+  onToggleRisk: () => void;
 }
 
 function LayerIcon({ id }: { id: string }) {
@@ -60,7 +62,7 @@ function LayerIcon({ id }: { id: string }) {
   }
 }
 
-export default function LayerBar({ showTrack, onToggleTrack }: LayerBarProps) {
+export default function LayerBar({ showTrack, showRisk, onToggleTrack, onToggleRisk }: LayerBarProps) {
   return (
     <div className="layer-bar">
       {layers.map((layer) => {
@@ -70,6 +72,21 @@ export default function LayerBar({ showTrack, onToggleTrack }: LayerBarProps) {
               key={layer.id}
               className={`layer-btn ${showTrack ? 'layer-btn--active' : ''}`}
               onClick={onToggleTrack}
+            >
+              <span className="layer-btn-icon">
+                <LayerIcon id={layer.id} />
+              </span>
+              {layer.label}
+            </button>
+          );
+        }
+
+        if (layer.id === 'risk') {
+          return (
+            <button
+              key={layer.id}
+              className={`layer-btn ${showRisk ? 'layer-btn--active' : ''}`}
+              onClick={onToggleRisk}
             >
               <span className="layer-btn-icon">
                 <LayerIcon id={layer.id} />

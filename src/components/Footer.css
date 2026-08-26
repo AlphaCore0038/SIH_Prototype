@@ -52,3 +52,24 @@
   justify-content: center;
   flex-shrink: 0;
 }
+
+.footer-model-status {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.footer-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.footer-status-label {
+  white-space: nowrap;
+}

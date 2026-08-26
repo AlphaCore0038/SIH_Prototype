@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import type { Map } from 'leaflet';
 import type { CycloneData } from '../types/cyclone';
 import CycloneOverlay from './CycloneOverlay';
+import RiskOverlay from './RiskOverlay';
 import 'leaflet/dist/leaflet.css';
 import './MapView.css';
 
@@ -25,6 +26,7 @@ interface MapViewProps {
   selectedForecast: number | null;
   selectedHistorical: number | null;
   showTrack: boolean;
+  showRisk: boolean;
   onSelectForecast: (hoursAhead: number | null) => void;
   onSelectHistorical: (index: number | null) => void;
 }
@@ -34,6 +36,7 @@ export default function MapView({
   selectedForecast,
   selectedHistorical,
   showTrack,
+  showRisk,
   onSelectForecast,
   onSelectHistorical,
 }: MapViewProps) {
@@ -66,6 +69,7 @@ export default function MapView({
           attribution='&copy; <a href="https://carto.com/">CARTO</a> | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         />
         <MapController mapRef={mapRef} />
+        {showRisk && trackData && <RiskOverlay data={trackData} />}
         {trackData && (
           <CycloneOverlay
             data={trackData}

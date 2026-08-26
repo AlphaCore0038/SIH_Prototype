@@ -1,32 +1,80 @@
-# React + TypeScript + Vite
+# Cyclone Intelligence Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Problem
 
-Currently, two official plugins are available:
+Cyclone trajectory prediction for the Bay of Bengal using machine learning.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Architecture
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+React + TypeScript + Leaflet → FastAPI → Hybrid CV + LSTM → Forecast
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Frontend
+
+- React 19
+- TypeScript
+- Vite
+- Leaflet (react-leaflet)
+- Dark mission-control GIS aesthetic
+- CartoDB Dark Matter tiles
+
+## ML Pipeline
+
+- **Dataset:** IBTrACS v04r01, Bay of Bengal
+- **Historical storms used:** 1,186
+- **Features:** lat, lon, dlat, dlon, speed, direction, hour_sin, hour_cos
+- **Model:** 2-layer LSTM (64 → 32 → Dense(10))
+- **Parameters:** 31,818
+- **Hybrid routing:**
+  - +6h/+12h → Constant Velocity
+  - +24h/+48h/+72h → LSTM
+
+## Results
+
+| Model | +6h | +12h | +24h | +48h | +72h | Overall |
+|---|---:|---:|---:|---:|---:|---:|
+| Persistence | 34.2 | 67.9 | 135.5 | 272.5 | 408.8 | 183.8 |
+| Constant Velocity | 12.4 | 25.2 | 58.7 | 147.7 | 255.5 | 99.9 |
+| LSTM | 23.3 | 30.7 | 54.0 | 120.0 | 194.2 | 84.4 |
+| **Hybrid** | **12.4** | **25.2** | **54.0** | **120.0** | **194.2** | **81.2** |
+
+Metric: mean Haversine distance error in km. Lower is better.
+
+## Why Hybrid?
+
+Experiments showed that different models perform best at different forecast horizons:
+
+- **Constant Velocity** performs best at short horizons (+6h, +12h) where cyclone motion is approximately linear.
+- **LSTM** performs better at longer horizons (+24h to +72h) where non-linear trajectory patterns (curvature, acceleration, steering flows) accumulate.
+- **Hybrid** combines them deterministically by horizon, achieving 81.2 km overall mean error — 18.8% better than Constant Velocity alone and 3.9% better than LSTM alone.
+
+## How to Run
+
+```bash
+# Terminal 1: Start ML inference server
+cd ml/api
+python server.py
+
+# Terminal 2: Start frontend
+npm install
+npm run dev
+```
+
+The dashboard falls back to demonstration forecast data if the ML API is unavailable.
+
+## Limitations
+
+- Research/hackathon prototype
+- Trained on historical IBTrACS Bay of Bengal data only
+- Not an operational meteorological forecast
+- Demonstration uses simulated cyclone input
+- No real-time satellite integration
+- No environmental features (SST, wind shear)
+
+## Future Work
+
+- Real-time satellite observation integration
+- Environmental features (SST, wind shear)
+- Operational meteorological validation
+- More advanced routing/model architectures

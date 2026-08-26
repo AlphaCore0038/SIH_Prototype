@@ -3,6 +3,13 @@
   border-top: 1px solid var(--border);
 }
 
+.forecast-panel-subtitle {
+  padding: 0 14px 8px;
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
+}
+
 .forecast-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
