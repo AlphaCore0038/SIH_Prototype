@@ -7,10 +7,32 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
 *.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data (re-downloadable via download_data.py)
+ml/data/raw/
+
+# Rejected M5.1 experiment (not used by production)
+ml/models/trajectory_lstm_seq8/
+ml/data/processed/*_8.npz
+ml/data/processed/metadata_8.json
+
+# Generated plots (not referenced by documentation)
+ml/data/processed/cyclone_tracks.png
+ml/data/processed/baseline_comparison.png
+ml/models/trajectory_lstm/*.png
 
 # Editor directories and files
 .vscode/*
