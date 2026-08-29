@@ -1,6 +1,6 @@
-# Cyclone Intelligence Dashboard
+# VayuDrishti
 
-Prototype ML trajectory forecast for Bay of Bengal cyclones, built for Smart India Hackathon.
+ML-powered cyclone trajectory forecast for Bay of Bengal, built for Smart India Hackathon.
 
 ## Problem
 
