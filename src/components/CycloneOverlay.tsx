@@ -135,12 +135,12 @@ export default function CycloneOverlay({
         <Polygon
           positions={conePositions}
           pathOptions={{
-            color: '#ff6b00',
-            weight: 1,
-            opacity: 0.3,
-            fillColor: '#ff6b00',
-            fillOpacity: 0.08,
-            dashArray: '4, 4',
+            color: '#22c55e',
+            weight: 1.5,
+            opacity: 0.5,
+            fillColor: '#22c55e',
+            fillOpacity: 0.12,
+            dashArray: '6, 4',
           }}
         />
       )}
@@ -149,9 +149,9 @@ export default function CycloneOverlay({
         <Polyline
           positions={trackPositions}
           pathOptions={{
-            color: '#94a3b8',
-            weight: 2,
-            opacity: 0.7,
+            color: '#3b82f6',
+            weight: 3,
+            opacity: 0.85,
           }}
         />
       )}
@@ -162,12 +162,12 @@ export default function CycloneOverlay({
           <CircleMarker
             key={i}
             center={[point.lat, point.lon]}
-            radius={isSelected ? 5 : 3}
+            radius={isSelected ? 5 : 3.5}
             pathOptions={{
-              color: isSelected ? '#ffffff' : '#64748b',
-              fillColor: isSelected ? '#e2e8f0' : '#94a3b8',
-              fillOpacity: isSelected ? 0.95 : 0.7,
-              weight: isSelected ? 2 : 1,
+              color: isSelected ? '#ffffff' : '#2563eb',
+              fillColor: isSelected ? '#e2e8f0' : '#3b82f6',
+              fillOpacity: isSelected ? 0.95 : 0.8,
+              weight: isSelected ? 2 : 1.5,
             }}
             eventHandlers={{
               click: () => onSelectHistorical(isSelected ? null : i),
@@ -187,10 +187,10 @@ export default function CycloneOverlay({
         <Polyline
           positions={forecastPositions}
           pathOptions={{
-            color: '#ff6b00',
-            weight: 2,
-            opacity: 0.8,
-            dashArray: '8, 6',
+            color: '#22c55e',
+            weight: 3,
+            opacity: 0.9,
+            dashArray: '10, 6',
           }}
         />
       )}
@@ -201,11 +201,11 @@ export default function CycloneOverlay({
           <CircleMarker
             key={`fc-${point.hoursAhead}`}
             center={[point.lat, point.lon]}
-            radius={isSelected ? 6 : 4}
+            radius={isSelected ? 7 : 5}
             pathOptions={{
-              color: isSelected ? '#ffffff' : '#ff6b00',
-              fillColor: '#ff6b00',
-              fillOpacity: isSelected ? 0.95 : 0.85,
+              color: isSelected ? '#ffffff' : '#22c55e',
+              fillColor: '#22c55e',
+              fillOpacity: isSelected ? 0.95 : 0.9,
               weight: isSelected ? 3 : 2,
             }}
             eventHandlers={{
@@ -237,15 +237,35 @@ export default function CycloneOverlay({
 
       <CircleMarker
         center={[current.lat, current.lon]}
-        radius={8}
+        radius={10}
         pathOptions={{
-          color: '#ff6b00',
-          fillColor: '#ff6b00',
-          fillOpacity: 0.9,
-          weight: 2,
+          color: '#1d4ed8',
+          fillColor: '#2563eb',
+          fillOpacity: 0.95,
+          weight: 3,
+        }}
+      />
+      <CircleMarker
+        center={[current.lat, current.lon]}
+        radius={18}
+        pathOptions={{
+          color: '#3b82f6',
+          fillColor: '#3b82f6',
+          fillOpacity: 0.15,
+          weight: 1,
+        }}
+      />
+      <CircleMarker
+        center={[current.lat, current.lon]}
+        radius={28}
+        pathOptions={{
+          color: '#3b82f6',
+          fillColor: '#3b82f6',
+          fillOpacity: 0.06,
+          weight: 1,
         }}
       >
-        <Tooltip direction="top" offset={[0, -10]} opacity={0.95}>
+        <Tooltip direction="top" offset={[0, -14]} opacity={0.95}>
           <span>
             <strong>{data.name}</strong><br />
             Current Position<br />

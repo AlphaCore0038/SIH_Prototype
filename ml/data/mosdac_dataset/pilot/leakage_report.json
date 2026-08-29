@@ -1,0 +1,19 @@
+{
+  "temporal_future_leak": "Checked: satellite timestamp used is at track time T, not future; alignment offset verifies sat <= track+90 and satellite never from future beyond T; dataset would use only history [T-9h,T] satellite frames, no future.",
+  "target_leakage": "Checked: input features derived only from [t-3,t] history; targets are future lat/lon at +6..72h not in input.",
+  "storm_leakage": "Would be storm-level split: REMAL train, DANA val, FENGAL test (example) - no SID overlap. Verified via SID grouping.",
+  "normalization_leakage": "Not applied in pilot (no training); recommendation: fit Z-score on train storms only, as in Normalizer.fit.",
+  "file_leakage": "Verified: target files not used as input; input uses sat at T, targets use later IBTrACS lat/lon, not satellite files.",
+  "assertions": [
+    {
+      "name": "no SID across splits",
+      "would_pass": true,
+      "note": "3-event pilot split sid-disjoint"
+    },
+    {
+      "name": "no future sat in input",
+      "would_pass": true,
+      "note": "offset check ensures sat_time <= track_time+90 and history only"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "tolerance_min": 90,
+  "per_event": {
+    "2024145N14087": {
+      "n_track": 40,
+      "exact_matches": 0,
+      "nearest_matches": 0,
+      "skipped": 40,
+      "matched_total": 0,
+      "details": [
+        {
+          "track": "2024-05-23T12:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-05-23T15:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-05-23T18:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-05-23T21:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-05-24T00:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        }
+      ]
+    },
+    "2024295N15092": {
+      "n_track": 39,
+      "exact_matches": 0,
+      "nearest_matches": 0,
+      "skipped": 39,
+      "matched_total": 0,
+      "details": [
+        {
+          "track": "2024-10-21T06:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-10-21T09:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-10-21T12:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-10-21T15:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-10-21T18:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        }
+      ]
+    },
+    "2024329N04089": {
+      "n_track": 70,
+      "exact_matches": 0,
+      "nearest_matches": 0,
+      "skipped": 70,
+      "matched_total": 0,
+      "details": [
+        {
+          "track": "2024-11-23T18:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-11-23T21:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-11-24T00:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-11-24T03:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        },
+        {
+          "track": "2024-11-24T06:00:00+00:00",
+          "sat": null,
+          "offset": null,
+          "exact": false,
+          "matched": false
+        }
+      ]
+    }
+  },
+  "totals": {
+    "matched": 0,
+    "exact": 0,
+    "nearest": 0,
+    "skipped": 149
+  },
+  "sat_local_count": 50,
+  "sat_local_sample": [
+    "2026-08-27T10:00:00+00:00",
+    "2026-08-27T10:30:00+00:00",
+    "2026-08-27T11:00:00+00:00"
+  ],
+  "acquisition": {
+    "events": [
+      {
+        "sid": "2024145N14087",
+        "name": "REMAL",
+        "n_track_obs": 40,
+        "required_files_4products": 160,
+        "existing": 0,
+        "missing": 160,
+        "sample_missing_names": [
+          "3SIMG_23MAY2024_1200_L1C_ASIA_MER_V01R00.h5",
+          "3SIMG_23MAY2024_1200_L2B_CTP_V01R00.h5",
+          "3SIMG_23MAY2024_1200_L2B_HEM_V01R00.h5",
+          "3SIMG_23MAY2024_1200_L2B_SST_V01R00.h5",
+          "3SIMG_23MAY2024_1500_L1C_ASIA_MER_V01R00.h5"
+        ]
+      },
+      {
+        "sid": "2024295N15092",
+        "name": "DANA",
+        "n_track_obs": 39,
+        "required_files_4products": 156,
+        "existing": 0,
+        "missing": 156,
+        "sample_missing_names": [
+          "3SIMG_21OCT2024_0600_L1C_ASIA_MER_V01R00.h5",
+          "3SIMG_21OCT2024_0600_L2B_CTP_V01R00.h5",
+          "3SIMG_21OCT2024_0600_L2B_HEM_V01R00.h5",
+          "3SIMG_21OCT2024_0600_L2B_SST_V01R00.h5",
+          "3SIMG_21OCT2024_0900_L1C_ASIA_MER_V01R00.h5"
+        ]
+      },
+      {
+        "sid": "2024329N04089",
+        "name": "FENGAL",
+        "n_track_obs": 70,
+        "required_files_4products": 280,
+        "existing": 0,
+        "missing": 280,
+        "sample_missing_names": [
+          "3SIMG_23NOV2024_1800_L1C_ASIA_MER_V01R00.h5",
+          "3SIMG_23NOV2024_1800_L2B_CTP_V01R00.h5",
+          "3SIMG_23NOV2024_1800_L2B_HEM_V01R00.h5",
+          "3SIMG_23NOV2024_1800_L2B_SST_V01R00.h5",
+          "3SIMG_23NOV2024_2100_L1C_ASIA_MER_V01R00.h5"
+        ]
+      }
+    ],
+    "total_required_files": 596,
+    "total_existing": 0,
+    "total_missing": 596,
+    "missing_files_sample": [
+      "data_download\\3SIMG_L1C_ASIA_MER\\2024\\23MAY\\3SIMG_23MAY2024_1200_L1C_ASIA_MER_V01R00.h5",
+      "data_download\\3SIMG_L2B_CTP\\2024\\23MAY\\3SIMG_23MAY2024_1200_L2B_CTP_V01R00.h5",
+      "data_download\\3SIMG_L2B_HEM\\2024\\23MAY\\3SIMG_23MAY2024_1200_L2B_HEM_V01R00.h5",
+      "data_download\\3SIMG_L2B_SST\\2024\\23MAY\\3SIMG_23MAY2024_1200_L2B_SST_V01R00.h5",
+      "data_download\\3SIMG_L1C_ASIA_MER\\2024\\23MAY\\3SIMG_23MAY2024_1500_L1C_ASIA_MER_V01R00.h5",
+      "data_download\\3SIMG_L2B_CTP\\2024\\23MAY\\3SIMG_23MAY2024_1500_L2B_CTP_V01R00.h5",
+      "data_download\\3SIMG_L2B_HEM\\2024\\23MAY\\3SIMG_23MAY2024_1500_L2B_HEM_V01R00.h5",
+      "data_download\\3SIMG_L2B_SST\\2024\\23MAY\\3SIMG_23MAY2024_1500_L2B_SST_V01R00.h5",
+      "data_download\\3SIMG_L1C_ASIA_MER\\2024\\23MAY\\3SIMG_23MAY2024_1800_L1C_ASIA_MER_V01R00.h5",
+      "data_download\\3SIMG_L2B_CTP\\2024\\23MAY\\3SIMG_23MAY2024_1800_L2B_CTP_V01R00.h5",
+      "data_download\\3SIMG_L2B_HEM\\2024\\23MAY\\3SIMG_23MAY2024_1800_L2B_HEM_V01R00.h5",
+      "data_download\\3SIMG_L2B_SST\\2024\\23MAY\\3SIMG_23MAY2024_1800_L2B_SST_V01R00.h5",
+      "data_download\\3SIMG_L1C_ASIA_MER\\2024\\23MAY\\3SIMG_23MAY2024_2100_L1C_ASIA_MER_V01R00.h5",
+      "data_download\\3SIMG_L2B_CTP\\2024\\23MAY\\3SIMG_23MAY2024_2100_L2B_CTP_V01R00.h5",
+      "data_download\\3SIMG_L2B_HEM\\2024\\23MAY\\3SIMG_23MAY2024_2100_L2B_HEM_V01R00.h5",
+      "data_download\\3SIMG_L2B_SST\\2024\\23MAY\\3SIMG_23MAY2024_2100_L2B_SST_V01R00.h5",
+      "data_download\\3SIMG_L1C_ASIA_MER\\2024\\24MAY\\3SIMG_24MAY2024_0000_L1C_ASIA_MER_V01R00.h5",
+      "data_download\\3SIMG_L2B_CTP\\2024\\24MAY\\3SIMG_24MAY2024_0000_L2B_CTP_V01R00.h5",
+      "data_download\\3SIMG_L2B_HEM\\2024\\24MAY\\3SIMG_24MAY2024_0000_L2B_HEM_V01R00.h5",
+      "data_download\\3SIMG_L2B_SST\\2024\\24MAY\\3SIMG_24MAY2024_0000_L2B_SST_V01R00.h5"
+    ]
+  }
+}

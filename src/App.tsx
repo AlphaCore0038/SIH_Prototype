@@ -26,6 +26,7 @@ export default function App() {
   const [selectedHistorical, setSelectedHistorical] = useState<number | null>(null);
   const [showTrack, setShowTrack] = useState(true);
   const [showRisk, setShowRisk] = useState(false);
+  const [showSatellite, setShowSatellite] = useState(true);
   const [showDetails, setShowDetails] = useState(false);
   const [cyclone, setCyclone] = useState<CycloneData>(mockCyclone);
   const [modelStatus, setModelStatus] = useState<ModelStatus>('loading');
@@ -64,14 +65,17 @@ export default function App() {
           selectedHistorical={selectedHistorical}
           showTrack={showTrack}
           showRisk={showRisk}
+          showSatellite={showSatellite}
           onSelectForecast={setSelectedForecast}
           onSelectHistorical={setSelectedHistorical}
         />
         <LayerBar
           showTrack={showTrack}
           showRisk={showRisk}
+          showSatellite={showSatellite}
           onToggleTrack={() => setShowTrack(prev => !prev)}
           onToggleRisk={() => setShowRisk(prev => !prev)}
+          onToggleSatellite={() => setShowSatellite(prev => !prev)}
         />
       </div>
       <CycloneInfo data={cyclone} onViewDetails={() => setShowDetails(true)} />

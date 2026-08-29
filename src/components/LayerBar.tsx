@@ -11,8 +11,10 @@ const layers = [
 interface LayerBarProps {
   showTrack: boolean;
   showRisk: boolean;
+  showSatellite: boolean;
   onToggleTrack: () => void;
   onToggleRisk: () => void;
+  onToggleSatellite: () => void;
 }
 
 function LayerIcon({ id }: { id: string }) {
@@ -62,10 +64,25 @@ function LayerIcon({ id }: { id: string }) {
   }
 }
 
-export default function LayerBar({ showTrack, showRisk, onToggleTrack, onToggleRisk }: LayerBarProps) {
+export default function LayerBar({ showTrack, showRisk, showSatellite, onToggleTrack, onToggleRisk, onToggleSatellite }: LayerBarProps) {
   return (
     <div className="layer-bar">
       {layers.map((layer) => {
+        if (layer.id === 'satellite') {
+          return (
+            <button
+              key={layer.id}
+              className={`layer-btn ${showSatellite ? 'layer-btn--active' : ''}`}
+              onClick={onToggleSatellite}
+            >
+              <span className="layer-btn-icon">
+                <LayerIcon id={layer.id} />
+              </span>
+              {layer.label}
+            </button>
+          );
+        }
+
         if (layer.id === 'track') {
           return (
             <button

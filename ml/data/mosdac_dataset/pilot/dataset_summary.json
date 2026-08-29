@@ -1,0 +1,34 @@
+{
+  "pilot_dir": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\ml\\data\\mosdac_dataset\\pilot",
+  "events": [
+    {
+      "sid": "2024145N14087",
+      "name": "REMAL",
+      "n_obs": 40,
+      "max_seq_possible_track_only": 25,
+      "n_obs_check": 40
+    },
+    {
+      "sid": "2024295N15092",
+      "name": "DANA",
+      "n_obs": 39,
+      "max_seq_possible_track_only": 24,
+      "n_obs_check": 39
+    },
+    {
+      "sid": "2024329N04089",
+      "name": "FENGAL",
+      "n_obs": 70,
+      "max_seq_possible_track_only": 55,
+      "n_obs_check": 70
+    }
+  ],
+  "satellite_feature_count": 12,
+  "kinematic_feature_count": 8,
+  "fused_count": 20,
+  "tensor_shapes": {
+    "expected": "X_sat (N,4,12), X_kin (N,4,8), X_fused (N,4,20), Y (N,10)",
+    "pilot_actual": "N=0 (0 matched -> no joint dataset); if had matched, N would be sum of per-event max_seq but limited by satellite match rate 0/149"
+  },
+  "pilot_status": "PILOT_WAITING_FOR_MOSDAC_DATA"
+}

@@ -1,0 +1,159 @@
+{
+  "total": 50,
+  "processed": 37,
+  "failed": 0,
+  "skipped": 0,
+  "complete_input": 37,
+  "incomplete_input": 13,
+  "output_dir": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\ml\\data\\mosdac_processed",
+  "timestamps": [
+    {
+      "timestamp_key": "27AUG2026_1630",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_1700",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_1930",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2000",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2030",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2100",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2130",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2200",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2230",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2300",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "27AUG2026_2330",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0000",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0030",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0100",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0130",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0200",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0230",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0300",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0330",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0400",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0430",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0500",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0530",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0600",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0630",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0700",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0730",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0800",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0830",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0900",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_0930",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_1000",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_1030",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_1130",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_1200",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_1230",
+      "status": "success"
+    },
+    {
+      "timestamp_key": "28AUG2026_1300",
+      "status": "success"
+    }
+  ]
+}

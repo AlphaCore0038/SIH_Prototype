@@ -34,6 +34,15 @@ ml/data/processed/cyclone_tracks.png
 ml/data/processed/baseline_comparison.png
 ml/models/trajectory_lstm/*.png
 
+# MOSDAC raw data
+data_download/
+*.h5
+
+# MOSDAC generated features (phase2/phase3 reports are tracked)
+ml/data/mosdac_processed/features_*.npz
+ml/data/mosdac_processed/grid_*.json
+ml/data/mosdac_dataset/**/*.npz
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

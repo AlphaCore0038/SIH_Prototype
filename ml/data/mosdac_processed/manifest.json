@@ -1,0 +1,644 @@
+{
+  "generated_at": "2026-08-28T19:29:58.767486Z",
+  "total_observations": 50,
+  "complete_observations": 37,
+  "incomplete_observations": 13,
+  "observations": [
+    {
+      "timestamp_key": "27AUG2026_1000",
+      "timestamp_iso": "2026-08-27T10:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1000_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1000_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1030",
+      "timestamp_iso": "2026-08-27T10:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1030_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1030_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1100",
+      "timestamp_iso": "2026-08-27T11:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1100_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1100_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1130",
+      "timestamp_iso": "2026-08-27T11:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1130_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1130_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1200",
+      "timestamp_iso": "2026-08-27T12:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1200_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1200_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1230",
+      "timestamp_iso": "2026-08-27T12:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1230_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1230_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1300",
+      "timestamp_iso": "2026-08-27T13:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1300_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1300_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1330",
+      "timestamp_iso": "2026-08-27T13:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1330_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1330_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1400",
+      "timestamp_iso": "2026-08-27T14:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1400_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1400_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1430",
+      "timestamp_iso": "2026-08-27T14:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1430_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1430_L2B_CTP_V01R00.h5",
+        "hem": null,
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "hem",
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1500",
+      "timestamp_iso": "2026-08-27T15:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1500_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1500_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_1500_L2B_HEM_V01R00.h5",
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1530",
+      "timestamp_iso": "2026-08-27T15:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1530_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1530_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_1530_L2B_HEM_V01R00.h5",
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1600",
+      "timestamp_iso": "2026-08-27T16:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1600_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1600_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_1600_L2B_HEM_V01R00.h5",
+        "sst": null
+      },
+      "complete": false,
+      "missing": [
+        "sst"
+      ]
+    },
+    {
+      "timestamp_key": "27AUG2026_1630",
+      "timestamp_iso": "2026-08-27T16:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1630_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1630_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_1630_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_1630_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_1700",
+      "timestamp_iso": "2026-08-27T17:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1700_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1700_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_1700_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_1700_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_1930",
+      "timestamp_iso": "2026-08-27T19:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_1930_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_1930_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_1930_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_1930_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2000",
+      "timestamp_iso": "2026-08-27T20:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2000_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2000_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2000_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2000_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2030",
+      "timestamp_iso": "2026-08-27T20:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2030_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2030_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2030_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2030_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2100",
+      "timestamp_iso": "2026-08-27T21:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2100_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2100_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2100_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2100_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2130",
+      "timestamp_iso": "2026-08-27T21:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2130_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2130_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2130_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2130_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2200",
+      "timestamp_iso": "2026-08-27T22:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2200_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2200_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2200_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2200_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2230",
+      "timestamp_iso": "2026-08-27T22:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2230_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2230_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2230_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2230_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2300",
+      "timestamp_iso": "2026-08-27T23:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2300_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2300_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2300_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2300_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "27AUG2026_2330",
+      "timestamp_iso": "2026-08-27T23:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\27AUG\\3SIMG_27AUG2026_2330_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\27AUG\\3SIMG_27AUG2026_2330_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\27AUG\\3SIMG_27AUG2026_2330_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\27AUG\\3SIMG_27AUG2026_2330_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0000",
+      "timestamp_iso": "2026-08-28T00:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0000_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0000_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0000_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0000_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0030",
+      "timestamp_iso": "2026-08-28T00:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0030_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0030_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0030_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0030_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0100",
+      "timestamp_iso": "2026-08-28T01:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0100_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0100_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0100_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0100_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0130",
+      "timestamp_iso": "2026-08-28T01:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0130_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0130_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0130_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0130_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0200",
+      "timestamp_iso": "2026-08-28T02:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0200_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0200_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0200_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0200_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0230",
+      "timestamp_iso": "2026-08-28T02:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0230_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0230_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0230_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0230_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0300",
+      "timestamp_iso": "2026-08-28T03:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0300_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0300_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0300_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0300_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0330",
+      "timestamp_iso": "2026-08-28T03:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0330_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0330_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0330_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0330_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0400",
+      "timestamp_iso": "2026-08-28T04:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0400_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0400_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0400_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0400_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0430",
+      "timestamp_iso": "2026-08-28T04:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0430_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0430_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0430_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0430_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0500",
+      "timestamp_iso": "2026-08-28T05:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0500_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0500_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0500_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0500_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0530",
+      "timestamp_iso": "2026-08-28T05:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0530_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0530_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0530_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0530_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0600",
+      "timestamp_iso": "2026-08-28T06:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0600_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0600_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0600_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0600_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0630",
+      "timestamp_iso": "2026-08-28T06:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0630_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0630_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0630_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0630_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0700",
+      "timestamp_iso": "2026-08-28T07:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0700_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0700_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0700_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0700_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0730",
+      "timestamp_iso": "2026-08-28T07:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0730_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0730_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0730_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0730_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0800",
+      "timestamp_iso": "2026-08-28T08:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0800_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0800_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0800_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0800_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0830",
+      "timestamp_iso": "2026-08-28T08:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0830_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0830_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0830_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0830_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0900",
+      "timestamp_iso": "2026-08-28T09:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0900_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0900_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0900_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0900_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_0930",
+      "timestamp_iso": "2026-08-28T09:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_0930_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_0930_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_0930_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_0930_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_1000",
+      "timestamp_iso": "2026-08-28T10:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_1000_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_1000_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_1000_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_1000_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_1030",
+      "timestamp_iso": "2026-08-28T10:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_1030_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_1030_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_1030_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_1030_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_1130",
+      "timestamp_iso": "2026-08-28T11:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_1130_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_1130_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_1130_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_1130_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_1200",
+      "timestamp_iso": "2026-08-28T12:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_1200_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_1200_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_1200_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_1200_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_1230",
+      "timestamp_iso": "2026-08-28T12:30:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_1230_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_1230_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_1230_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_1230_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    },
+    {
+      "timestamp_key": "28AUG2026_1300",
+      "timestamp_iso": "2026-08-28T13:00:00Z",
+      "products": {
+        "l1c": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L1C_ASIA_MER\\2026\\28AUG\\3SIMG_28AUG2026_1300_L1C_ASIA_MER_V01R00.h5",
+        "ctp": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_CTP\\2026\\28AUG\\3SIMG_28AUG2026_1300_L2B_CTP_V01R00.h5",
+        "hem": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_HEM\\2026\\28AUG\\3SIMG_28AUG2026_1300_L2B_HEM_V01R00.h5",
+        "sst": "C:\\Users\\chait\\OneDrive\\Desktop\\New folder\\SIH\\data_download\\3SIMG_L2B_SST\\2026\\28AUG\\3SIMG_28AUG2026_1300_L2B_SST_V01R00.h5"
+      },
+      "complete": true,
+      "missing": []
+    }
+  ]
+}

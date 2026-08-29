@@ -1,0 +1,78 @@
+{
+  "satellite_features": [
+    "TIR1_btemp_mean",
+    "TIR1_btemp_std",
+    "WV_mean",
+    "MIR_btemp_mean",
+    "CTT_mean",
+    "CTP_mean",
+    "CTP_valid_frac",
+    "HEM_mean",
+    "HEM_high_rain_frac",
+    "SST_ocean_valid_frac",
+    "SST_ocean_mean",
+    "SST_gradient_mean"
+  ],
+  "kinematic_features": [
+    "lat",
+    "lon",
+    "dlat",
+    "dlon",
+    "speed_kmh",
+    "direction_deg",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "fused_features": [
+    "lat",
+    "lon",
+    "dlat",
+    "dlon",
+    "speed_kmh",
+    "direction_deg",
+    "hour_sin",
+    "hour_cos",
+    "TIR1_btemp_mean",
+    "TIR1_btemp_std",
+    "WV_mean",
+    "MIR_btemp_mean",
+    "CTT_mean",
+    "CTP_mean",
+    "CTP_valid_frac",
+    "HEM_mean",
+    "HEM_high_rain_frac",
+    "SST_ocean_valid_frac",
+    "SST_ocean_mean",
+    "SST_gradient_mean"
+  ],
+  "horizons_hours": [
+    6,
+    12,
+    24,
+    48,
+    72
+  ],
+  "seq_len": 4,
+  "splits": {
+    "note": "PILOT split - 3 storms insufficient for statistical test; labeled as pilot only",
+    "assignments": [
+      {
+        "storm": "REMAL (2024145N14087) May pre-monsoon - TRAIN",
+        "n_obs": 40,
+        "est_seq": 25
+      },
+      {
+        "storm": "DANA (2024295N15092) Oct post-monsoon - VALIDATION",
+        "n_obs": 39,
+        "est_seq": 24
+      },
+      {
+        "storm": "FENGAL (2024329N04089) Nov-Dec late season - TEST",
+        "n_obs": 70,
+        "est_seq": 55
+      }
+    ],
+    "full_9_event_plan": "6 train (REMAL + 5 monsoon depressions + maybe), 1-2 val (DANA), 1-2 test (FENGAL + one monsoon) preserving diversity",
+    "limitation": "3 storms cannot provide reliable test; full 9-event needed for robust 6/2/1 split"
+  }
+}
